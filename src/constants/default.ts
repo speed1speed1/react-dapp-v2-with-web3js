@@ -19,7 +19,7 @@ export const DEFAULT_TEST_CHAINS = [
 
 export const DEFAULT_CHAINS = [...DEFAULT_MAIN_CHAINS, ...DEFAULT_TEST_CHAINS];
 
-export const DEFAULT_PROJECT_ID = 'e899c82be21d4acca2c8aec45e893598';
+export const DEFAULT_PROJECT_ID = 'b5dca21e17ca0f0cce25a202459818b5';
 
 export const DEFAULT_RELAY_URL = process.env.NEXT_PUBLIC_RELAY_URL;
 
