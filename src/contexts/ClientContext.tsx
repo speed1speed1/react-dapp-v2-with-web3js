@@ -153,26 +153,14 @@ export function ClientContextProvider({ children }: { children: ReactNode | Reac
         projectId: DEFAULT_PROJECT_ID,
         walletConnectVersion: 2,
         enableExplorer: true,
-        desktopWallets: [
-          {
+        mobileWallets: [{
             id: '1',
             name: 'zwallet',
             links: {
               native: 'mywallet://',
               universal: ''
             },
-          },
-        ],
-        mobileWallets: [
-          {
-            id: '1',
-            name: 'zwallet',
-            links: {
-              native: 'mywallet://',
-              universal: ''
-            },
-          },
-        ],
+        }],
       });
 
       setEthereumProvider(provider);
